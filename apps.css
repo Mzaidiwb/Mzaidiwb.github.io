@@ -1,3 +1,31 @@
 h1 {
     border-bottom: 2px black solid;
 }
+
+button {
+    appearance: none;
+    background-color: black;
+    border: 2px solid #1A1A1A;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    padding: 16px 24px;
+    text-align: center;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    width: 20%;
+}
+
+button:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+button:active {
+    border-bottom: blue;
+}
+
+body {
+    border: black solid 2px
+}
