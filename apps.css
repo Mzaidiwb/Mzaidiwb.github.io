@@ -3,16 +3,16 @@ h1 {
 }
 
 button {
-    appearance: none;
     background-color: black;
-    border: 2px solid blue;
-    border-radius: 50px;
+    border: 2px solid white;
+    border-radius: 20px;
     color: white;
     cursor: pointer;
     text-align: center;
     transition: all 500ms cubic-bezier(.23, 1, 0.32, 1);
     height: 4em;
     width: 7em;
+    margin-right: 2em;
 }
 
 button:hover {
@@ -29,4 +29,9 @@ body {
 html {
     height: 100%;
     background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: left;
 }
