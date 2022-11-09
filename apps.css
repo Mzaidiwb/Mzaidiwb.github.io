@@ -21,11 +21,7 @@ button:hover {
     border: 2px solid black;
 }
 
-nav {
-    border: 2px black solid;
-}
-
-html {
+body {
     background-color: black;
     color: white;
 }
