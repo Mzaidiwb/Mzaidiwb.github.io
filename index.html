@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <!-- Nav bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Mohammad Zaidi</a>
@@ -34,12 +35,18 @@
                     </li>
                 </ul>
             </div>
+            <img class="moon" src="images/Moon.svg">
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault"
+                    onclick="DarkMode()">
+                <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+            </div>
         </div>
     </nav>
 
-
+    <!-- About Me -->
     <div class="about-me-cards">
-        <div class="card text-white bg-primary mb-3" style="max-width: 25vw;">
+        <div class="card text-white bg-primary mb-3">
             <div class="card-header">About Me</div>
             <div class="card-body">
                 <h5 class="card-title">Software Engineer</h5>
@@ -47,8 +54,8 @@
                     Air Force Base.</p>
             </div>
         </div>
-
-        <div class="card text-white bg-primary mb-3" style="max-width: 25vw;">
+        <!-- Education -->
+        <div class="card text-white bg-primary mb-3">
             <div class="card-header">Education</div>
             <div class="card-body">
                 <h5 class="card-title">Mercer University</h5>
@@ -58,18 +65,45 @@
 
             </div>
         </div>
-
-        <div class="card text-white bg-primary mb-3" style="max-width: 25vw;">
+        <!-- Skills -->
+        <div class="card text-white bg-primary mb-3">
             <div class="card-header">Skills</div>
             <div class="card-body">
-                <h5 class="card-title">Software Languages and More</h5>
+                <h5 class="card-title">Software Languages</h5>
                 <p class="card-text">
-
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item flex-fill">C#</li>
+                    <li class="list-group-item flex-fill">CSS</li>
+                    <li class="list-group-item flex-fill">JavaScript</li>
+                    <li class="list-group-item flex-fill">Java</li>
+                </ul>
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item flex-fill">Python</li>
+                    <li class="list-group-item flex-fill">HTML</li>
+                    <li class="list-group-item flex-fill">WPF/ XAML</li>
+                    <li class="list-group-item flex-fill">SQL</li>
+                </ul>
+                <h5 class="card-title">Other</h5>
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item flex-fill">Microservices</li>
+                    <li class="list-group-item flex-fill">Unit Testing</li>
+                    <li class="list-group-item flex-fill">Git</li>
+                </ul>
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item flex-fill">Docker</li>
+                    <li class="list-group-item flex-fill">CI/CD</li>
+                    <li class="list-group-item flex-fill">MVVM</li>
+                </ul>
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item flex-fill">Azure DevOps</li>
+                    <li class="list-group-item flex-fill">Documentation</li>
+                    <li class="list-group-item flex-fill">Data Modelling</li>
+                </ul>
                 </p>
             </div>
         </div>
-
-        <div class="card text-white bg-primary mb-3" style="max-width: 25vw;">
+        <!-- Certs -->
+        <div class="card text-white bg-primary mb-3" style="max-width: 100vw;">
             <div class="card-header">Certifcations</div>
             <div class="card-body">
                 <h5 class="card-title">Certified Secure Software Lifecycle Professional - (CSSLP)</h5>
@@ -80,9 +114,11 @@
         </div>
     </div>
 
+    <!-- JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
+    <script src="DarkMode.js"></script>
 </body>
 </body>
 

@@ -7,11 +7,25 @@ h1 {
 
 body {
     background-color: white;
-    
+
 }
 
-a{
-    color:white;
+.dark-mode {
+    background-color: black;
+}
+
+.moon {
+    width: 2em;
+    margin-right: 1em;
+
+}
+
+a {
+    color: white;
+}
+
+.card {
+    max-width: 25em;
 }
 
 .project-cards {
@@ -29,12 +43,20 @@ a{
     flex-wrap: wrap;
     margin: 0 auto;
     margin-left: 0.5em;
-    justify-content:flex-start;
+    justify-content: flex-start;
     align-items: baseline;
     column-gap: 0.5em;
 }
 
-img{
+img {
     height: auto;
     max-height: 90px;
+}
+
+.list-group-item {
+    display: flex;
+    flex: 1;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 6em;
 }
