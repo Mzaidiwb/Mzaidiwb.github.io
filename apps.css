@@ -28,10 +28,10 @@ a{
     flex-direction: row;
     flex-wrap: wrap;
     margin: 0 auto;
-    margin-left: 1rem;
+    margin-left: 0.5em;
     justify-content:flex-start;
     align-items: baseline;
-    column-gap: 2em;
+    column-gap: 0.5em;
 }
 
 img{
