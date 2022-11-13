@@ -12,12 +12,16 @@ body {
 
 .dark-mode {
     background-color: black;
+    
 }
 
-.moon {
-    width: 2em;
-    margin-right: 1em;
 
+.dark{
+    fill: white
+}
+
+.form-switch{
+    color:white;
 }
 
 a {
